@@ -1,0 +1,107 @@
+.main {
+    margin-top: 24px;
+}
+
+.main h1 {
+    text-transform: capitalize;
+    border-bottom: solid 2px var(--card-bg);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 270px;
+    padding: 5px;
+}
+
+.main section {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 52px 0 16px 0;
+}
+
+.main div:first-of-type {
+    width: 50%;
+}
+
+.main div:first-of-type h2 {
+    text-transform:capitalize;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.main div:first-of-type blockquote {
+    text-transform:capitalize;
+    letter-spacing: 1px;
+}
+
+.main div:first-of-type button {
+    background-color: var(--secondary-color);
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px;
+    border: none;
+}
+
+.main div:first-of-type button a{
+    color: black;
+}
+
+.main div:last-of-type {
+    border: solid 1px var(--card-bg);
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    width: 27%;
+}
+
+.main div:last-of-type ul {
+    text-transform: capitalize;
+    list-style-type: none;
+    
+    font-size: 25px;
+}
+
+.main div:last-of-type ul li {
+    margin-top: 30px;
+}
+
+.main .secondSection {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 1150px) {
+    .main div:first-of-type {
+        width: 50%;
+    }
+
+    .main div:last-of-type {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main section  {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main .secondSection {
+        flex-direction: column;
+    }
+
+    .main div:first-of-type {
+        width: 100%;
+        border-bottom: solid 1px var(--card-bg);
+    }
+
+    .main div:first-of-type blockquote {
+       font-size: 13px;
+    }
+    
+    .main div:last-of-type {
+        width: 100%;
+        margin-top: 5px;
+        border-radius: 0;
+    }
+}

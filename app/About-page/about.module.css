@@ -1,0 +1,108 @@
+.main h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.main section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main section div:first-of-type {
+    width: 320px;
+}
+
+.main section div:first-of-type h2 {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.main section div:first-of-type blockquote {
+    text-align:center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.main section div:last-of-type {
+    width: 270px;
+}
+
+.main section div:last-of-type h2 {
+    font-size: 23px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.main section div:last-of-type ul li {
+    list-style-type: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.main section div:last-of-type button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-left: 160px;
+    border:none;
+    background-color: var(--secondary-color);
+    transition: 1s;
+}
+
+.main section div:last-of-type button:hover {
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 2px 3px 5px black;
+}
+
+.main section div:last-of-type button a {
+    color: black;
+}
+
+@media screen and (max-width: 1150px) {
+    .main section {
+        flex-direction: column;
+    }
+
+    .main section div:first-of-type {
+        width: 100%;
+    }
+
+    .main section div:first-of-type h2 {
+        font-size: 22px;
+    }
+
+    .main section div:last-of-type {
+        width: 100%;
+    }
+
+    .main section div:last-of-type ul {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        place-items: center;
+    }
+
+    .main section div:last-of-type button {
+        margin-left: 380px;
+    }
+
+    .main .imgDiv {
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main section div:last-of-type ul {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: -30px;
+    }
+
+    .main section div:first-of-type blockquote {
+        text-align: center;
+    }
+}

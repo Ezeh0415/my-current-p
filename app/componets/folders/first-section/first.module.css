@@ -1,0 +1,81 @@
+.main {
+    display: flex;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.main div h1 {
+    text-transform: capitalize;
+    font-size: 45px;
+}
+
+.main div blockquote {
+    text-transform: capitalize;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.buttons button {
+    background-color: var(--background);
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin-top: 10px;
+    border:solid 2px var(--card-bg);
+    font-size: 17px;
+    transition: 1s;
+    padding: 10px;
+}
+
+.buttons button:hover{
+    background-color: var(--secondary-color);
+    border:solid 2px var(--secondary-color);
+}
+
+.buttons button:last-of-type {
+    margin: 0 0 0 9px;
+}
+
+.buttons button a {
+    color: black;
+}
+
+.main .imgDiv {
+    /* border:solid 1px ;
+    border-radius: 10px; */
+    width: 2500px;
+    height: 330px;
+}
+
+@media screen and (max-width: 1150px)  {
+    .main div h1 {
+        text-transform: capitalize;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main div {
+        width:100%;
+    }
+
+    .main div h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .main div blockquote {
+        font-size: 13px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .main .imgDiv {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
