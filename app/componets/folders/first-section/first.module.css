@@ -71,7 +71,8 @@
     .main div blockquote {
         font-size: 13px;
         letter-spacing: 1px;
-        text-align: center;
+        text-align: start;
+        word-spacing: 1px;
     }
 
     .main .imgDiv {

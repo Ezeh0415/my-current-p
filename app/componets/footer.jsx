@@ -5,7 +5,7 @@ import {FaLinkedin, FaTwitter, FaGithub, FaFacebook} from "react-icons/fa6"
 export default function footer() {
   return (
   <main className={styles.main}>
-     <h1>&copy; 2024 ezeanwe chigozie godiwn all right reserved</h1>
+     <h1>&copy; 2024 ezeanwe chigozie godwin all right reserved</h1>
      <div>
         <ul>
             <li><a href="https://www.linkedin.com/in/ezeanwe-chigozie-49b78a260?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><FaLinkedin /></a></li>

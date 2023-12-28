@@ -8,7 +8,7 @@ export default function Second() {
           <div>
              <h2>web developer</h2>
              <blockquote>
-                i offer service in front end web developer with option for more like a Reusable Code which i mentioned while Reusable code are for react and next js i wont back down in creating a clean code both in react and next js or be it html css javaScript and i happen to be maintaning and debuging front-end bugs i hope you find me intresting enough to contact me . 
+                i offer service in front end web developer with the option for more. like the Reusable Code which i mentioned while Reusable code are for react and next js i wont back down in creating a clean code both in react and next js or be it html css javaScript and i happen to be maintaning and debuging front-end bugs i hope you find me intresting enough to contact me . 
              </blockquote>
              <button><a href="/Contact-Page">talk to me</a></button>
           </div>

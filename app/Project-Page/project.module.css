@@ -71,6 +71,11 @@
 }
 
 @media screen and (max-width: 500px) {
+
+    .plMain {
+        margin-left: 0px;
+    }
+
     .plMain section {
         display:grid;
         place-items: center;

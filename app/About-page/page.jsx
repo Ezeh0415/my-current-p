@@ -23,7 +23,7 @@ export default function about() {
                     src={img}
                     alt={"my photo"}
                     placeholder="blur"
-                    style={{width:"450px"}}
+                    style={{width:"100%",height:"300px"}}
                 />
             </div>
             <div>
@@ -37,7 +37,7 @@ export default function about() {
                     <li>React</li>
                     <li>next js</li>
                 </ul>
-                <button><Link href="/Project-Page">Projects</Link></button>
+                {/* <button><Link href="/Project-Page">Projects</Link></button> */}
             </div>
         </section>
     </main>

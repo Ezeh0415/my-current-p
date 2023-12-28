@@ -4,13 +4,13 @@
     text-transform: capitalize;
 }
 
-.main section {
+/* .main section {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .main section div:first-of-type {
-    width: 320px;
+    width: 100%;
 }
 
 .main section div:first-of-type h2 {
@@ -26,7 +26,12 @@
 }
 
 .main section div:last-of-type {
-    width: 270px;
+    width: 100%;
+}
+
+.main section div:last-of-type ul {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .main section div:last-of-type h2 {
@@ -96,13 +101,24 @@
 }
 
 @media screen and (max-width: 500px) {
+    .main h1 {
+       font-size: 30px;
+    }
+
+    .main section div:first-of-type h2 {
+        font-size: 15px;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
     .main section div:last-of-type ul {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin-left: -30px;
+        grid-template-columns: repeat(3,1fr);
+        margin-right: 30px;
     }
 
     .main section div:first-of-type blockquote {
-        text-align: center;
+        text-align: start;
+        font-size: 12px;
     }
 }
