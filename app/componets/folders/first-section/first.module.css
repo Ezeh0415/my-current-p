@@ -2,6 +2,7 @@
     display: flex;
     margin-top: 24px;
     align-items: center;
+    width: 100%;
 }
 
 .main div h1 {
@@ -39,6 +40,13 @@
     color: black;
 }
 
+.main .imgDiv  {
+    border:2px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 0 0 10px var(--secondary-color);
+}
+
 .main .imgDiv {
     /* border:solid 1px ;
     border-radius: 10px; */
@@ -65,7 +73,7 @@
 
     .main div h1 {
         font-size: 25px;
-        text-align: center;
+        text-align: start;
     }
 
     .main div blockquote {
@@ -73,10 +81,23 @@
         letter-spacing: 1px;
         text-align: start;
         word-spacing: 1px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main div blockquote {
+        margin-bottom: 10px;
     }
 
     .main .imgDiv {
         width: 100%;
         margin-top: 40px;
+    }
+
+    .main .imgDiv  {
+        border:2px solid var(--secondary-color);
+        border-radius: 10px;
+        padding: 2px;
+        box-shadow: 0 0 10px var(--secondary-color);
     }
 }

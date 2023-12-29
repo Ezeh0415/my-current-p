@@ -12,6 +12,7 @@ export default function Second() {
              </blockquote>
              <button><a href="/Contact-Page">talk to me</a></button>
           </div>
+          <hr />
           <div>
             <ul>
               <li>Reusable Code</li>
@@ -44,6 +45,7 @@ export default function Second() {
              </blockquote>
              <button><a href="/Contact-Page">talk to me</a></button>
           </div>
+          <hr />
           <div>
             <ul>
               <li>Desktop responsive</li>

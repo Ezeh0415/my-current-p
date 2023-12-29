@@ -13,6 +13,19 @@
     text-transform: capitalize;
 }
 
+.main button {
+    padding:10px;
+    border-radius: 7px;
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.main button a {
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 1150px) {
     .main blockquote {
         text-align: center;
@@ -20,8 +33,35 @@
 }
 
 @media screen and (max-width: 500px) {
+    .main {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .main h1{
+        text-align: start;
+        border-bottom: solid 1px var(--card-bg);
+        padding-bottom: 10px;
+        width: 80%;
+    }
     .main blockquote {
         text-align: start;
         font-size: 16px;
+        margin: 0 2%;
+        padding: 0px;
     }
+
+    .main button {
+    padding:10px;
+    border-radius: 7px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin-top: 20px;
+}
+
+.main button a {
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+}
 }

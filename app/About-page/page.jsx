@@ -2,9 +2,11 @@ import React from 'react'
 import styles from "./about.module.css"
 import img from "../image/img.jpg"
 import Image from 'next/image'
-import Link from 'next/link'
+import Skills from "./skills"
+
 
 export default function about() {
+
   return (
     <main className={styles.main}>
         <h1>ezeanwe .c. godwin</h1>
@@ -23,12 +25,30 @@ export default function about() {
                     src={img}
                     alt={"my photo"}
                     placeholder="blur"
-                    style={{width:"100%",height:"300px"}}
+                    style={{
+                        width:"90%",
+                        height:"400px",
+                        borderRadius:"100%"
+                    }}
+                />
+            </div>
+            <div className={styles.imgDiv1}>
+            <Image 
+                    src={img}
+                    alt={"my photo"}
+                    placeholder="blur"
+                    style={{
+                        width:"100%",
+                        height:"500px",
+                        // borderRadius:"100%"
+                    }}
                 />
             </div>
             <div>
                 <h2>my skills</h2> 
-                <ul>
+
+                  <Skills />
+                {/* <ul>
                     <li>html5</li>
                     <li>css3</li>
                     <li>JavaScript</li>
@@ -36,7 +56,7 @@ export default function about() {
                     <li>scss</li>
                     <li>React</li>
                     <li>next js</li>
-                </ul>
+                </ul> */}
                 {/* <button><Link href="/Project-Page">Projects</Link></button> */}
             </div>
         </section>
