@@ -33,7 +33,7 @@ export default function NavBar() {
             {isNavOpen ? <div className={styles.drawer} onClick={toggle}><GiCancel /></div> :  <div className={styles.drawer} onClick={toggle}><RxHamburgerMenu /></div>}
         </header> 
         <div className={styles.faq}>
-        <Link href="#">
+        <Link href="/CV">
            <h3>CV</h3>
         </Link>
        </div>

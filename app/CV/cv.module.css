@@ -1,0 +1,16 @@
+.main h1 {
+    text-transform: capitalize;
+}
+
+.main .Image {
+    width: 80%;
+    border: solid 5px;
+    margin: 15px auto;
+}
+
+@media screen and (max-width: 500px) {
+    .main .Image {
+        width: 95%;
+        margin: 0 5px;
+    }
+}
