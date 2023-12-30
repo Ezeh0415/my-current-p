@@ -48,6 +48,12 @@
     border: none;
 }
 
+.main div:first-of-type button :hover {
+    border: dashed 2px var(--secondary-color);
+    background-color: var(--background);
+    padding: 10px;
+}
+
 .main div:first-of-type button a{
     color: black;
 }

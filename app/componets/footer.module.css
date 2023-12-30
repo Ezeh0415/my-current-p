@@ -38,10 +38,17 @@
 
 .main div ul li:hover {
     font-size: 32px;
+    border: dashed 2px var(--secondary-color);
+    background-color:var(--card-bg);
+    color:var(--secondary-color);
 }
 
 .main div ul li a {
     color: black;
+}
+
+.main div ul li a:hover {
+    color:var(--secondary-color);
 }
 
 @media screen and (max-width: 1150px) {

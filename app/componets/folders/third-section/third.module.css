@@ -20,6 +20,11 @@
     border: none;
 }
 
+.main button:hover {
+    border: dashed 2px var(--secondary-color);
+    background-color: var(--background);
+}
+
 .main button a {
     text-transform: capitalize;
     color: black;

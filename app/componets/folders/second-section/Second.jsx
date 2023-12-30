@@ -1,3 +1,4 @@
+import Link from "next/link"
 import styles from "./second.module.css"
 
 export default function Second() {
@@ -10,7 +11,7 @@ export default function Second() {
              <blockquote>
                 i offer service in front end web developer with the option for more. like the Reusable Code which i mentioned while Reusable code are for react and next js i wont back down in creating a clean code both in react and next js or be it html css javaScript and i happen to be maintaning and debuging front-end bugs i hope you find me intresting enough to contact me . 
              </blockquote>
-             <button><a href="/Contact-Page">talk to me</a></button>
+             <button><Link href="/Contact-Page">talk to me</Link></button>
           </div>
           <hr />
           <div>
@@ -43,7 +44,7 @@ export default function Second() {
              <blockquote>
                responsiveness is what a front-end developer should put an effort in in mastering cause these days 90% of users visit the internet through tablet or mobile phone so that why a developer should know how to create a responsive page  hit me up for a clean and mouth watering responsiveness
              </blockquote>
-             <button><a href="/Contact-Page">talk to me</a></button>
+             <button><Link href="/Contact-Page">talk to me</Link></button>
           </div>
           <hr />
           <div>

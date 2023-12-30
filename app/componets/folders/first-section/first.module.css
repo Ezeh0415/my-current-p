@@ -54,11 +54,15 @@
     height: 330px;
 }
 
+
+
 @media screen and (max-width: 1150px)  {
     .main div h1 {
         text-transform: capitalize;
         font-size: 35px;
     }
+
+   
 }
 
 @media screen and (max-width: 500px) {
@@ -100,4 +104,6 @@
         padding: 2px;
         box-shadow: 0 0 10px var(--secondary-color);
     }
+
+
 }

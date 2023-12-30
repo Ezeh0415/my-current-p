@@ -9,7 +9,7 @@ export default function about() {
 
   return (
     <main className={styles.main}>
-        <h1>ezeanwe .c. godwin</h1>
+        <h1>ezeanwe chigozie godwin</h1>
 
         <section>
 

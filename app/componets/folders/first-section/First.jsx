@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "./first.module.css"
 import Image from 'next/image'
 import logo from "../../../image/img1.jpg"
+import Link from "next/link"
 
 export default function First() {
   return (

@@ -37,12 +37,37 @@
     text-transform: capitalize;
 }
 
+.main header nav button:hover {
+    border: dashed 2px var(--secondary-color);
+    border-radius: 8px;
+    background-color: var(--card-bg);
+}
+
 .main header nav a {
     color: black;
 }
 
 .drawer {
     display: none;
+}
+
+.faq {
+    position: fixed;
+    right: 10px;
+    top: 78%;
+}
+
+.faq h3 {
+    border: solid 2px var(--secondary-color);
+    border-radius: 50% 50% 0 50%;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+}
+
+.faq h3:hover {
+    border: dashed 2px var(--secondary-color);
+    background-color: var(--background);
 }
 
 @media screen and (max-width: 1150px) {
@@ -95,4 +120,19 @@
         display: block;
         transition: 1s;
     }
+
+    .faq {
+        top: 81%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        position:static;
+    }
+
+     .faq {
+        top: 73%;
+    }
+
 }
